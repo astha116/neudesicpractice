@@ -1,0 +1,54 @@
+h1
+{
+    color:whitesmoke;
+    background-color:DodgerBlue;
+    border:2px solid Tomato;
+    font-family: verdana;
+    font-size: 300%;
+    padding: 30px;
+    margin: 50px;
+}
+body{
+    height: 800px; 
+    width: 800px;
+    background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-color: rgb(189, 204, 206)
+    
+}
+#sample-id
+{
+    color:green;
+}
+h4.sample-class
+{
+    color:gold;
+    height:auto;
+    max-width:100%
+    
+}
+img
+{
+    float:left;
+     height:130px;
+     border:2px solid black;
+}
+table{
+    width:100%
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+ul
+{
+    list-style-type:disc;
+}
+.points
+{
+    background-color: rgb(94, 39, 39);
+  color: white;
+  margin: 40px;
+  padding: 40px;
+}
+
