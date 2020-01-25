@@ -1,0 +1,18 @@
+create procedure calculator2(@a int,@b int)
+as
+begin
+declare @c int
+declare @d int
+declare @e int
+declare @f int
+set @c=@a+@b
+set @d=@a-@b
+set @e=@a*@b
+set @f=@a/@b
+print @c
+print @d
+print @e
+print @f
+end;
+
+exec calculator2 2,4
