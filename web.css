@@ -1,22 +1,18 @@
-ul 
+tr 
 {
     list-style-type: none;
     margin: 0;
     padding:0;
     display: flex;
   }
-  a
-  {
-      text-decoration: none;
-  }
+ 
   .div-class{
     background-color:lightblue;
 	margin-right: 20px;
   }
   .div-class a{
-   
-    
-    
+   text-decoration: none;
+    padding:10px; 
     width:10%;
     font-size: 30px;
     overflow: hidden;
@@ -24,14 +20,22 @@ ul
   }
   #aa{
       float:Right;
-      
+       padding:5px;
+      margin-top:0.10%;
   }
   li
   {
       display: inline;
       padding:20%
   }
-  img
+ #image1
+  {
+    height: 200px;
+    width: 100%;
+    border:2px solid black;
+    
+  }
+  #image
   {
       float:right;
       height: 300px;
@@ -45,17 +49,17 @@ ul
     
       
   }
-  img:hover
+  #image:hover
   {
       transform: scale(1.5);
       
   }
   footer
   {
-      
-      
+       
       background-color:yellow ;
       align-items: center;
       bottom: 0;
   
   }
+    
