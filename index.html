@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="./index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <table>
+        <tr>               
+        <td>num1</td><td><input type="text" id="num1" value="0"></input></td>
+        <td>num2</td><td><input type="text" id="num2" value="0"></input></td>
+        </tr>
+        
+        <tr><td><input type="button" value="+" id="add" onclick = "cal(this.id)"/></td>
+        <td><input type="button" value="-" id="sub" onclick = "cal(this.id)"/></td>
+        <td><input type="button" value="/" id="div" onclick = "cal(this.id)"/></td>
+        <td><input type="button" value="*" id="mul" onclick = "cal(this.id)"/></td></tr>
+        <tr><td>Answer</td><td><input type="text" id="ans" value="" disabled/></td></tr>
+        </table>
+        
+    </body>
+</html>
